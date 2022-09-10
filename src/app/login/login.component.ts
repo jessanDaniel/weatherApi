@@ -25,10 +25,10 @@ isPassfilled:boolean=false;
 
 validate(){
   if(this.form.email!=this.checkEmail){
-    alert('Not so cash money');
+    alert('incorrect');
   }
   else if(this.form.password!=this.checkPassword){
-    alert('identify yourself nigga');
+    alert('incorrect password');
   }
   else{
     this.router.navigateByUrl('/dashboard');
