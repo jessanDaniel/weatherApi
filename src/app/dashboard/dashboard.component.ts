@@ -20,7 +20,7 @@ export class DashboardComponent implements OnInit {
   }
 
   goback(){
-    this.route.navigateByUrl('/')
+    this.route.navigateByUrl('/');
   }
 
 }
